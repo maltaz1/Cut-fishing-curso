@@ -1,0 +1,74 @@
+:root {
+  /* =========================
+     🎯 CORES PRINCIPAIS
+  ========================== */
+
+  --color-primary: #6c5ce7; /* Roxo principal */
+  --color-primary-light: #8b7cff;
+  --color-primary-dark: #4b3fd1;
+
+  --color-secondary: #3b82f6; /* Azul destaque */
+  --color-secondary-light: #60a5fa;
+  --color-secondary-dark: #2563eb;
+
+  /* =========================
+     🌙 BACKGROUND (DARK UI)
+  ========================== */
+
+  --bg-main: #0b0b12; /* fundo principal */
+  --bg-secondary: #11111a; /* seções */
+  --bg-card: #161622; /* cards */
+  --bg-card-hover: #1c1c2a;
+
+  --bg-glass: rgba(255, 255, 255, 0.05);
+
+  /* =========================
+     📝 TEXTO
+  ========================== */
+
+  --text-primary: #ffffff;
+  --text-secondary: #d7d7e075;
+  --text-muted: #7a7a90;
+  --text-disabled: #55556b;
+
+  /* =========================
+     ✅ STATUS / FEEDBACK
+  ========================== */
+
+  --color-success: #22c55e;
+  --color-warning: #f59e0b;
+  --color-error: #ef4444;
+  --color-info: #38bdf8;
+
+  /* =========================
+     🔲 BORDAS
+  ========================== */
+
+  --border-primary: #26263a;
+  --border-light: rgba(255, 255, 255, 0.08);
+  --border-focus: #6c5ce7;
+
+  /* =========================
+     ✨ GRADIENTES
+  ========================== */
+
+  --gradient-primary: linear-gradient(135deg, #6c5ce7, #3b82f6);
+
+  --gradient-secondary: linear-gradient(135deg, #3b82f6, #6c5ce7);
+
+  --gradient-glow: linear-gradient(
+    135deg,
+    rgba(108, 92, 231, 0.6),
+    rgba(59, 130, 246, 0.6)
+  );
+
+  /* =========================
+     🌟 SOMBRAS / GLOW
+  ========================== */
+
+  --shadow-sm: 0 2px 10px rgba(0, 0, 0, 0.2);
+  --shadow-md: 0 10px 30px rgba(0, 0, 0, 0.4);
+  --shadow-lg: 0 20px 60px rgba(108, 92, 231, 0.25);
+
+  --glow-primary: 0 0 25px rgba(108, 92, 231, 0.45);
+}
