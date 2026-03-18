@@ -3,33 +3,33 @@
      🎯 CORES PRINCIPAIS
   ========================== */
 
-  --color-primary: #6c5ce7; /* Roxo principal */
-  --color-primary-light: #8b7cff;
-  --color-primary-dark: #4b3fd1;
+  --color-primary: #7c5cbf;
+  --color-primary-light: #9d78f0;
+  --color-primary-dark: #4a3580;
 
-  --color-secondary: #3b82f6; /* Azul destaque */
-  --color-secondary-light: #60a5fa;
-  --color-secondary-dark: #2563eb;
+  --color-secondary: #a87bff;
+  --color-secondary-light: #c9aaff;
+  --color-secondary-dark: #7c5cbf;
 
   /* =========================
      🌙 BACKGROUND (DARK UI)
   ========================== */
 
-  --bg-main: #0b0b12; /* fundo principal */
-  --bg-secondary: #11111a; /* seções */
-  --bg-card: #161622; /* cards */
-  --bg-card-hover: #1c1c2a;
+  --bg-main: #0b0914;
+  --bg-secondary: #110d1e;
+  --bg-card: #160f24;
+  --bg-card-hover: #1c1530;
 
-  --bg-glass: rgba(255, 255, 255, 0.05);
+  --bg-glass: rgba(124, 92, 191, 0.05);
 
   /* =========================
      📝 TEXTO
   ========================== */
 
-  --text-primary: #ffffff;
-  --text-secondary: #d7d7e075;
-  --text-muted: #7a7a90;
-  --text-disabled: #55556b;
+  --text-primary: #f0ecff;
+  --text-secondary: #9187b075;
+  --text-muted: #574f6e;
+  --text-disabled: #3a3452;
 
   /* =========================
      ✅ STATUS / FEEDBACK
@@ -44,22 +44,22 @@
      🔲 BORDAS
   ========================== */
 
-  --border-primary: #26263a;
-  --border-light: rgba(255, 255, 255, 0.08);
-  --border-focus: #6c5ce7;
+  --border-primary: rgba(124, 92, 191, 0.28);
+  --border-light: rgba(124, 92, 191, 0.005);
+  --border-focus: #9d78f0;
 
   /* =========================
      ✨ GRADIENTES
   ========================== */
 
-  --gradient-primary: linear-gradient(135deg, #6c5ce7, #3b82f6);
+  --gradient-primary: linear-gradient(135deg, #7c5cbf, #a87bff);
 
-  --gradient-secondary: linear-gradient(135deg, #3b82f6, #6c5ce7);
+  --gradient-secondary: linear-gradient(135deg, #a87bff, #7c5cbf);
 
   --gradient-glow: linear-gradient(
     135deg,
-    rgba(108, 92, 231, 0.6),
-    rgba(59, 130, 246, 0.6)
+    rgba(124, 92, 191, 0.6),
+    rgba(168, 123, 255, 0.6)
   );
 
   /* =========================
@@ -68,7 +68,7 @@
 
   --shadow-sm: 0 2px 10px rgba(0, 0, 0, 0.2);
   --shadow-md: 0 10px 30px rgba(0, 0, 0, 0.4);
-  --shadow-lg: 0 20px 60px rgba(108, 92, 231, 0.25);
+  --shadow-lg: 0 20px 60px rgba(124, 92, 191, 0.25);
 
-  --glow-primary: 0 0 25px rgba(108, 92, 231, 0.45);
+  --glow-primary: 0 0 25px rgba(124, 92, 191, 0.45);
 }
