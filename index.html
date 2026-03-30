@@ -161,7 +161,7 @@
               <li>Todas as atualizações futuras grátis</li>
             </ul>
           </div>
-          <a href="https://pay.cakto.com.br/t42uubd_731920?affiliate=ofbyiabf" target="_blank"><button class="btn-cta">⚡ Desbloquear Acesso</button></a>
+          <a href="https://pay.cakto.com.br/t42uubd_731920?affiliate=ofbyiabf" target="_blank"><button class="btn-cta" id="cta-vitalicio">⚡ Desbloquear Acesso</button></a>
         </div>
  
         <!-- MENSAL -->
@@ -188,7 +188,7 @@
               <li>Templates prontos</li>
             </ul>
           </div>
-          <a href="https://pay.cakto.com.br/3r4ykv3?affiliate=ofbyiabf" target="_blank"><button class="btn-cta">⚡ Desbloquear Acesso</button></a>
+          <a href="https://pay.cakto.com.br/3r4ykv3?affiliate=ofbyiabf" target="_blank"><button class="btn-cta" id="cta-mensal">⚡ Desbloquear Acesso</button></a>
         </div>
  
         <!-- ANUAL -->
@@ -217,7 +217,7 @@
               <li>Templates prontos</li>
             </ul>
           </div>
-          <a href="https://pay.cakto.com.br/x4rwxe2?affiliate=ofbyiabf" target="_blank"><button class="btn-cta">⚡ Desbloquear Acesso</button></a>
+          <a href="https://pay.cakto.com.br/x4rwxe2?affiliate=ofbyiabf" target="_blank"><button class="btn-cta" id="cta-anual">⚡ Desbloquear Acesso</button></a>
         </div>
  
       </div>
@@ -236,5 +236,21 @@
     ></script>
     
     <script src="./src/js/index.js"></script>
+    <script defer src="/_vercel/insights/script.js"></script>
+
+    <script>
+function trackClick(id, nome) {
+  const btn = document.getElementById(id);
+  if (!btn) return;
+
+  btn.addEventListener("click", () => {
+    window.va?.track(nome);
+  });
+}
+
+trackClick("cta-vitalicio", "Clique Plano Vitalicio");
+trackClick("cta-mensal", "Clique Plano Mensal");
+trackClick("cta-anual", "Clique Plano Anual");
+</script>
   </body>
 </html>
